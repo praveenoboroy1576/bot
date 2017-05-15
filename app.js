@@ -7,8 +7,8 @@ server.listen(3978,function(){
     console.log('%s listen %s',server.name,server.url);
 });
  var connector =new builder.ChatConnector({
-     appId:'171aecf6-ed98-436a-a8cc-5f73ae0ded62',
-     appPassword:'xpDZ8oN1FsSRotezo1x2Yeu'
+     appId:'32a38024-70b8-48fb-8434-b690cc35bf34',
+     appPassword:'MU7U85ggeX5vhXT9oGyzSnY'
  });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages',connector.listen());
